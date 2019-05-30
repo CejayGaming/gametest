@@ -6,3 +6,5 @@ var size= 1024;
 var type = buffer_fixed;
 var alignment=1;
 buffer = buffer_create(size,type,alignment);
+global.socketList=ds_list_create();
+global.ipList=ds_list_create();
