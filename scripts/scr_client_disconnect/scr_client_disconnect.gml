@@ -5,8 +5,8 @@ var i = 0;
 repeat (ds_list_size(global.ipList)) {
 	buffer_seek(buffer,buffer_seek_start,0);
 	buffer_write(buffer,buffer_u8,3);
-	buffer_write(buffer,buffer_text,disconnectingSocket);
-	buffer_write(buffer,buffer_text,disconnectingIp);
+	buffer_write(buffer,buffer_u8,disconnectingSocket);
+	buffer_write(buffer,buffer_string,disconnectingIp);
 	network_send_packet(ds_list_find_value(global.socketList,i),buffer,buffer_tell(buffer));
 	i += 1;
 }
