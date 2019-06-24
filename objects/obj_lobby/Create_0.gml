@@ -1,7 +1,5 @@
-/// @description Ibitialize Variables
-global.host=false;
-global.hostIp=-2;
-global.player2_x=0;
-global.player2_y=0;
-global.newIp=-3;
-global.fromIp=-4;
+/// @description Initialize Variables
+global.test=0;
+global.test2=0;
+global.test3=0;
+global.test4=0;

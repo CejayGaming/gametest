@@ -1,4 +1,5 @@
 /// @desc Initialize
+depth = -1000;
 spd = 8;
 hspd = 0;
 vspd = 0;
