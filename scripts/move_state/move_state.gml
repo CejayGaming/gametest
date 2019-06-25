@@ -14,12 +14,12 @@ hspd = lengthdir_x(len, dir);
 vspd = lengthdir_y(len, dir);
 
 // Horizontal Collisions
-if (place_meeting(x+hspd, y, obj_wall)) {
-	while(!place_meeting(x+sign(hspd), y, obj_wall)) {
-		x += sign(hspd);
-	}
-	hspd = 0;
-}
+//if (place_meeting(x+hspd, y, obj_wall)) {
+//	while(!place_meeting(x+sign(hspd), y, obj_wall)) {
+//		x += sign(hspd);
+//	}
+//	hspd = 0;
+//}
 
 x += hspd;
 
