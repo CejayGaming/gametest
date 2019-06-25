@@ -1,4 +1,4 @@
 /// @description 
-//with (self){
-//healthbar=0;
-//}
+with (self){
+healthbar=0;
+}
